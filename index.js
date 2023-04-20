@@ -37,4 +37,4 @@ app.post('*', (req, res)=>res.send("not found"))
 app.listen(process.env.PORT, ()=>{
     connect_db()
     console.log("server is runing " + process.env.PORT)
-})
+}) 
